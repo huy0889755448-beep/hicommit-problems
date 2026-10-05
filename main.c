@@ -1,11 +1,8 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
 int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
+    int distance, order_value;
 
-    return 0;
+    scanf("%d%d", &distance , order_value);
+  return 0;
 }
