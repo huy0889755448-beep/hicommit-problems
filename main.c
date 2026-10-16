@@ -1,22 +1,28 @@
 #include <stdio.h>
-   
+
 int main() {
-    int khoang_cach,
-gia_tri_don_hang;
+    int distance;
+    long long order_value;
   
-    scanf ("%d%d", &khoang_cach,
-&gia_tri_don_hang);
-  
-    if (khoang_cach <= 0 ||
-gia_tri_don_hang < 0)
-       printf ("INVALID");
-    else if (gia_tri_don_hang >=
-500000 && khoang_cach <= 15)
-       printf("0");
-    else if (khoang_cach <= 5)
-       printf("15000");
-    else if (khoang_cach <= 15)
-       printf("25000");
-    else
-       printf("40000");
-return 0;
+    if (scanf("%d %lld", &distance, &order_value) != 2) {
+        printf("INVALID\n");
+        return 0;
+    }
+    if (distance <= 0 || order_value < 0) {
+        printf("INVALID\n");
+    }
+    else if (order_value >= 500000 && distance <= 15) {
+        printf("0\n");
+    }
+    else if (distance <= 5) {
+        printf("15000\n");
+    }
+    else if (distance <= 15) {
+        printf("25000\n");
+    }
+    else {
+        printf("40000\n");
+    }
+
+    return 0;
+}
