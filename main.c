@@ -2,7 +2,7 @@
 
 int main() {
   float dtb;
-  if (scanf("%f", & dtb) !=1) 
+  if (scanf("%f",&dtb) !=1) 
 
     if (dtb >= 9.0) {
       printf("A\n");
@@ -14,8 +14,13 @@ int main() {
       printf("C+\n");
     } else if (dtb >= 5.5) {
       printf("C\n");
-    } else if(dtb >=5.0) {
-      
+    } else if (dtb >=5.0) {
+      printf("D+\n");
+    } else if (dtb >=4.5) {
+      print("D\n");
+    } else if (dtb >=4.0) {
+      printf("F\n");
+    } else if {
     }
   return 0;
 }
