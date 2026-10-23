@@ -1,14 +1,20 @@
 #include <stdio.h>
 
 int main() {
-  int code;
+  int case;
   i = 4
-  scanf("%lld",&code0;
+  scanf("%d",&case);
 
-  if (code == 1) {
+  if (case == 1) {
     printf("XEP_LOAI_XUAT_SAC");
-  else if (code == 2) {
+  }    
+  else if (case == 2) {
     printf("XEP_LOAI_GIOI");
+  }
+  else if (case == 3) {
+    printf("XEP_LOAI_KHA");
+  }
+  
     
   
   return 0;
