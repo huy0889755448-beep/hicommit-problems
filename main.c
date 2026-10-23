@@ -16,9 +16,9 @@ int main() {
       printf("C\n");
     } else if (dtb >=5.0) {
       printf("D+\n");
-    } else if (dtb >=4.5) {
-      print("D\n");
     } else if (dtb >=4.0) {
+      print("D\n");
+    } else if {
       printf("F\n");
     } else if {
     }
