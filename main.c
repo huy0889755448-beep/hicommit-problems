@@ -10,10 +10,11 @@ int main() {
       printf("B+\n");
     } else if (dtb >= 7.0) {
       printf("B\n");
-    } else if (dtb >= 6.0) {
+    } else if (dtb >= 6.5) {
       printf("C+\n");
-    } else if (dtb >= 5.0) {
-      printf()
+    } else if (dtb >= 5.5) {
+      printf("C\n");
+    } else if(dtb >=5.0) {
       
     }
   return 0;
