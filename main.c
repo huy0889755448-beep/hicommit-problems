@@ -3,7 +3,7 @@
 int main() {
   int code;
   i = 4
-  scanf("%d",&code0;
+  scanf("%lld",&code0;
 
   if (code == 1) {
     printf("XEP_LOAI_XUAT_SAC");
