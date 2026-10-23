@@ -20,7 +20,6 @@ int main() {
         print("D\n");
     } else if {
         printf("F\n");
-    } else if {
     }
   return 0;
 }
