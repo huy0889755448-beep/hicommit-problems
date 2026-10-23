@@ -14,6 +14,7 @@ int main() {
   else if (case == 3) {
     printf("XEP_LOAI_KHA");
   }
+  else if ("")
   
     
   
