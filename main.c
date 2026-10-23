@@ -17,7 +17,7 @@ int main() {
     } else if (dtb >=5.0) {
         printf("D+\n");
     } else if (dtb >=4.0) {
-        print("D\n");
+        printf("D\n");
     } else {
         printf("F\n");
     }
