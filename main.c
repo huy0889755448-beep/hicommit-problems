@@ -14,9 +14,8 @@ int main() {
   else if (case == 3) {
     printf("XEP_LOAI_KHA");
   }
-  else if ("")
-  
-    
-  
+  else if (case == 4) {
+    printf("XEP_LOAI_TRUNG_BINH");
+  } 
   return 0;
 }
